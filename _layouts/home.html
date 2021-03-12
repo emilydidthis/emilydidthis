@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+    <h2 class="featured-list-heading"><img src="/images/star.svg"></h2>
+    <div class="featured-list">
+      {%- for post in site.posts -%}
+          {% if post.categories contains 'featured' %}
+            <div class="post-li">
+              <div class="post-li-title">
+                {% if post.dlink %}
+                  <a href="{{ post.dlink }}">
+                {% else %}
+                  <a href="{{ post.url | relative_url }}">
+                {% endif %}
+                {{ post.title | escape | upcase }}
+                </a>
+              </div>
+              <div class="post-li-logline">
+                  {{ post.logline }}
+              </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+        {%- for post in site.posts -%}
+          {% if post.categories contains 'coming-soon' %}
+            <div class="post-li">
+              <div class="post-li-title coming-soon">
+                <a href="{{ post.url | relative_url }}">
+                  {{ post.title | escape | upcase }}
+                </a>
+              </div>
+              <div class="post-li-logline">
+                  {{ post.logline }}
+              </div>
+          </div>
+          {% endif %}
+      {% endfor %}
+    </div>
+    <!-- <hr> -->
+    <!-- <h2 id="coming-soon">UPCOMING</h2> -->
+    
+    <!-- <div class="featured-list coming-soon">
+      {%- for post in site.posts -%}
+          {% if post.categories contains 'coming-soon' %}
+            <div class="post-li">
+              <div class="post-li-title">
+                <a href="{{ post.url | relative_url }}">
+                  {{ post.title | escape | upcase }}
+                </a>
+              </div>
+              <div class="post-li-logline">
+                  {{ post.logline }}
+              </div>
+          </div>
+          {% endif %}
+      {% endfor %}
+    </div> -->
+    
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+  {%- endif -%}
+</div>
+
