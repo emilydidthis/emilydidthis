@@ -67,6 +67,16 @@ body {
   opacity:100;
 }
 
+/* --- ABOUT--- */
+.pro-pic {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: $spacing-unit;
+}
+
+
 .page-link {
   line-height: 1;
 }
@@ -78,6 +88,7 @@ body {
   line-height: 1.1;
 }
 
+/* --- SIDEWAYS TAG --- */
 .sideways-tag{
   position: fixed;
   width: 150px;
@@ -103,13 +114,13 @@ body {
   max-width: 100%;
 }
 
-.post, .project{
+.post, .project {
   max-width: 65%;
   min-width: 700px;
   margin: auto;
 }
 
-.project {
+.project, .post-header  {
   text-align: center; //center project title
 }
 
@@ -117,25 +128,41 @@ body {
   text-align: left;
 }
 
-//BACKGROUND
+/* --- BACKGROUND--- */
 .page-background {
   background-color: white;
   outline: 2.5px solid $theme-color;
   color: $theme-color;
-  padding: $spacing-unit * 2;
+  padding: 40px 50px 15px 50px;
+  //padding-bottom: 15px;
 }
 
 .project > .page-background {
   padding: 20px 40px 20px 40px;
 }
 
+/* --- POST CONTENT--- */
+.page-content {
+  a {
+  border-bottom: 1px solid $theme-color;
+  color: $theme-color
+  }
+  a:hover{
+    text-decoration: none;
+    color: #465BF2;
+    border-bottom: 1px solid #465BF2;
+  }
+}
 
+/* --- PROJECTS--- */
+/* ICONS */
 .project-icon {
   max-width: 20%;
   display: block;
   margin: 2em auto;
 }
 
+/* --- BLOG POST HEADINGS--- */
 .post-title {
   font-family: "Karla";
   font-weight: 700;
@@ -150,6 +177,7 @@ body {
   font-weight: 300;
   color: $theme-color;
   font-size: 1em;
+  text-align: left;
 }
 
 .page-content {
@@ -161,13 +189,13 @@ body {
   font-size: 16px;
 }
 
-.post-li-title, .project-title {
+.page-title, .post-li-title, .project-title {
   font-family: "Karla";
   letter-spacing: 1.5px;
   font-weight: 300;    
 }
 
-.project-title {
+.page-title, .project-title {
   display: inline-block;
   font-weight: 400;
   position: relative;
@@ -179,7 +207,7 @@ body {
   margin-top: -30px;
 }
 
-.project-title-border{
+.page-title-border, .project-title-border{
   width: 100%;
   height: 100%;
   position: absolute;
@@ -213,7 +241,6 @@ body {
 }
 
 .project-content {
-
   .proj-desc {
     font-size: 1.1em;
   }
@@ -227,27 +254,36 @@ body {
   }
 }
 
+
+/* --- CAROUSEL--- */
 .carousel {
   width: 80%;
   margin: 2em auto;
 }
-
 .carousel img {
   display: block;
 }
 
+/* FLICKITY */
 .flickity-page-dots {
   display: none;
+}
+.flickity-prev-next-button.next {
+  right: -50px !important;
+}
+.flickity-prev-next-button.previous {
+  left: -50px !important;
 }
 
 
 
-// HOME 
+/* --- HOME--- */
+
 .home {
   padding-right: $spacing-unit; // visually center with sideways tag
 }
 
-// asterisk
+/* STAR */
 .featured-list-heading {
   text-align: center;
   img {
@@ -255,7 +291,7 @@ body {
   }
 }
 
-// diagonal stripes across projects that are coming soon
+/* DIAGONAL STRIPES */
 .post-li-title.coming-soon{
   margin-top: 2em;
   background: repeating-linear-gradient(
@@ -316,6 +352,7 @@ h3 {
   margin: 0px;
 }
 
+/* --- MEDIA QUERIES--- */
 @media screen and (min-width: 1400px){
   .wrapper{
     max-width: 80%;
@@ -362,11 +399,10 @@ h3 {
     min-width: 100%;
   }
 
-  //BACKGROUND
+/* --- BACKGROUND--- */
   .page-background {
     margin-left: $spacing-unit/2;
     margin-right: $spacing-unit/2;
-    padding: 40px;
     outline: 2px solid $theme-color;
   }
 
@@ -388,7 +424,7 @@ h3 {
     display: none;
   }
 
-  .project-title {
+  .project-title, .page-title {
     margin-top: $spacing-unit/2;
     font-size: 20px;
   }
@@ -464,7 +500,7 @@ h3 {
     font-size: 14px;
   }
   
-  .project-title {
+  .project-title, .page-title {
     font-size: 18px;
   }
 
@@ -475,6 +511,10 @@ h3 {
 
   .tags p {
     font-size: 14px;
+  }
+
+  .pro-pic {
+    margin-bottom: 0;
   }
 
 }
