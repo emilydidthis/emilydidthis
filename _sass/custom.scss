@@ -128,7 +128,7 @@ body {
 .project > .page-background {
   padding: 20px 40px 20px 40px;
 }
-//BACKGROUND
+
 
 .project-icon {
   max-width: 20%;
@@ -190,7 +190,10 @@ body {
 }
 
 .tags {
+  width: 95%;
+  margin: auto;
   margin-bottom: 1em;
+  
 
   p {
     margin: 5px 5px;
@@ -207,14 +210,22 @@ body {
 
 .link-in-post{
   text-align: center;
+  margin-bottom: 1.5em;
 }
-.project-content a{
-  font-family: "Karla";
-  text-align: center;
-  color: white;
-  background-color: $theme-color;
-  padding: .5em;
-  margin: auto;
+
+.project-content {
+
+  .proj-desc {
+    font-size: 1.1em;
+  }
+  
+  a {
+    font-family: "Karla";
+    text-align: center;
+    color: white;
+    background-color: $theme-color;
+    padding: .5em;
+  }
 }
 
 // HOME 
@@ -291,14 +302,6 @@ h3 {
   margin: 0px;
 }
 
-// hr {
-//   border-top: 1px solid #2E39B7;
-//   opacity: 30%;
-//   width: 75%;
-//   margin-top: 50px;
-//   margin: auto;
-// }
-
 @media screen and (min-width: 1400px){
   .wrapper{
     max-width: 80%;
@@ -332,12 +335,6 @@ h3 {
       width: 49%;
     }
   }
-
-  // .wrapper{
-  //   margin-left: $spacing-unit;
-  //   margin-right: $spacing-unit;
-  //   padding: 0;
-  // }
 
   .post-title {
     font-size: 2.25em;
@@ -375,6 +372,20 @@ h3 {
 
   .sideways-tag {
     display: none;
+  }
+
+  .project-title {
+    margin-top: $spacing-unit/2;
+    font-size: 20px;
+  }
+
+  .project-icon {
+    min-width: 17%;
+    margin: 1.5em auto;
+  }
+
+  .tags p {
+    font-size: 14px;
   }
 
 }
@@ -425,9 +436,12 @@ h3 {
   .page-background {
     margin: 0px;
     padding: 15px;
-    outline: 1px solid;
   }
 
+  .project > .page-background {
+    padding: 15px 30px;
+  }
+  
   .post-content p {
     font-size: 1em;
   }
@@ -436,6 +450,20 @@ h3 {
     font-size: 14px;
   }
   
+  .project-title {
+    font-size: 18px;
+  }
+
+  .project-icon {
+    min-width: 25%;
+    margin: 1.5em auto;
+  }
+
+  .tags p {
+    font-size: 14px;
+    //border: 1px solid #2E39B7;
+  }
+
 }
 
 @media screen and (max-width: 425px){
@@ -443,7 +471,6 @@ h3 {
   .post-title {
     font-size: 1.75em;
   }
-  
   
 
 }
