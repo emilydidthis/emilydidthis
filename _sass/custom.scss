@@ -193,7 +193,6 @@ body {
   width: 95%;
   margin: auto;
   margin-bottom: 1em;
-  
 
   p {
     margin: 5px 5px;
@@ -227,6 +226,21 @@ body {
     padding: .5em;
   }
 }
+
+.carousel {
+  width: 80%;
+  margin: 2em auto;
+}
+
+.carousel img {
+  display: block;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+
 
 // HOME 
 .home {
@@ -439,7 +453,7 @@ h3 {
   }
 
   .project > .page-background {
-    padding: 15px 30px;
+    padding: 20px;
   }
   
   .post-content p {
@@ -461,7 +475,6 @@ h3 {
 
   .tags p {
     font-size: 14px;
-    //border: 1px solid #2E39B7;
   }
 
 }
