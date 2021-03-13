@@ -17,6 +17,7 @@ tags: creative-coding physical-computing interactive arduino javascript UI-UX ps
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround":true, "fullscreen": true}'>
     <img class="photo" src="{{ site.baseurl }}/images/projects/racing-thoughts/cover-photo.jpg" alt="Racing Thoughts at the ITP Winter Show 2019">
     <img class="photo" src="{{ site.baseurl }}/images/projects/racing-thoughts/receipt-in-hand.jpg" alt="a receipt in hand">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JdhOtYtH8AU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 The project was derived from my own struggle to compliment myself. At the time of development, when asked by my therapist to recite self-affirmations, I couldn’t think of a single positive thing to say. With self-deprecations or insults, however, the stream was fast-flowing and easy. I wondered how some friends would fare when tasked to say something nice about themselves; many found it difficult, as well. 
