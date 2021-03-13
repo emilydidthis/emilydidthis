@@ -11,7 +11,7 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
-    <h2 class="featured-list-heading"><img src="/images/star.svg"></h2>
+    <h2 class="featured-list-heading"><img src="{{ site.baseurl }}/images/star.svg"></h2>
     <div class="featured-list">
       {%- for post in site.posts -%}
           {% if post.categories contains 'featured' %}

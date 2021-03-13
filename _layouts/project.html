@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="project h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="project-title p-name" itemprop="name headline">{{ page.title | escape | upcase }}<div class="project-title-border"></div></h1> 
-  <img class="project-icon" src="/images/icons/{{ page.title }}.svg" alt="receipt printer line drawing"></img>
+  <img class="project-icon" src="{{ site.baseurl }}/images/icons/{{ page.title }}.svg" alt="receipt printer line drawing"></img>
   
   <div class="tags">
     {% if page.tags %}
