@@ -149,10 +149,10 @@ body {
   }
   a:hover{
     text-decoration: none;
-    color: #465BF2;
-    border-bottom: 1px solid #465BF2;
+    //color: #465BF2;
+    border-bottom: 2px solid $theme-color;
+    }
   }
-}
 
 /* --- PROJECTS--- */
 /* ICONS */
@@ -258,10 +258,29 @@ body {
 /* --- CAROUSEL--- */
 .carousel {
   width: 80%;
-  margin: 2em auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 2em;
+  //border: 1px solid #465BF2;
 }
+
 .carousel img {
   display: block;
+}
+
+.carousel-caption {
+  font-family: "Inconsolata" !important;
+  text-align: center;
+  font-size: 14px !important;
+  box-sizing: border-box;
+  // border: 1px solid #465BF2;
+  width: 80%;
+  padding: 5px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  color: #6879fc;
 }
 
 /* FLICKITY */
@@ -275,7 +294,7 @@ body {
   left: -50px !important;
 }
 .flickity-button{
-  color: $theme-color !important;
+  color: #465BF2 !important;
 }
 .flickity-prev-next-button {
   height: 30px !important;

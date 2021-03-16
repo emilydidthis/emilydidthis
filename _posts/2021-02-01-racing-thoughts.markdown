@@ -14,11 +14,16 @@ tags: creative-coding physical-computing interactive arduino javascript UI-UX ps
   <b><i>Racing Thoughts</i> is an interactive experience intended to spark self-reflection. It calculates the speed at which people come up negative and positive thoughts and presents the data back to the user in the form of a receipt – a physical takeaway, if you will.</b>
 </p>
 
-<div class="carousel" data-flickity='{ "imagesLoaded": true, "wrapAround":true, "fullscreen": true}'>
+
+<div class="carousel">
     <img class="photo" src="{{ site.baseurl }}/images/projects/racing-thoughts/cover-photo.jpg" alt="Racing Thoughts at the ITP Winter Show 2019">
-    <img class="photo" src="{{ site.baseurl }}/images/projects/racing-thoughts/receipt-in-hand.jpg" alt="a receipt in hand">
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JdhOtYtH8AU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <img class="photo" src="{{ site.baseurl }}/images/projects/racing-thoughts/receipt-in-hand.jpg" alt="a Racing Thoughts receipt in hand">
+    <iframe alt="video documentation of Racing Thoughts" width="100%" height="100%" src="https://www.youtube.com/embed/JdhOtYtH8AU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<p class="carousel-caption">&nbsp;</p>
+
+
+
 
 The project was derived from my own struggle to compliment myself. At the time of development, when asked by my therapist to recite self-affirmations, I couldn’t think of a single positive thing to say. With self-deprecations or insults, however, the stream was fast-flowing and easy. I wondered how some friends would fare when tasked to say something nice about themselves; many found it difficult, as well. 
 
