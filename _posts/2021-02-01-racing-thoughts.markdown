@@ -4,7 +4,8 @@ title:  "Racing Thoughts"
 date:   2020-08-08 16:39:21 -0600
 categories: featured
 logline: "If your positive and negative thoughts could race, who would win?"
-tags: creative-coding physical-computing interactive arduino javascript UI-UX psychology 
+tags: creative-coding physical-computing interactive arduino javascript UI-UX psychology
+permalink: /racing-thoughts/
 ---
 <div class="link-in-post"> 
   <a href="https://editor.p5js.org/madebyemily/present/Yv2SdzMLV"> Try the experience first!</a>
@@ -18,7 +19,7 @@ tags: creative-coding physical-computing interactive arduino javascript UI-UX ps
 <div class="carousel">
     <img class="photo" src="{{ site.baseurl }}/images/projects/racing-thoughts/cover-photo.jpg" alt="Racing Thoughts at the ITP Winter Show 2019">
     <img class="photo" src="{{ site.baseurl }}/images/projects/racing-thoughts/receipt-in-hand.jpg" alt="a Racing Thoughts receipt in hand">
-    <iframe alt="video documentation of Racing Thoughts" width="100%" height="100%" src="https://www.youtube.com/embed/JdhOtYtH8AU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe alt="video documentation of Racing Thoughts" src="https://www.youtube.com/embed/JdhOtYtH8AU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <p class="carousel-caption">&nbsp;</p>
 
@@ -30,3 +31,5 @@ The project was derived from my own struggle to compliment myself. At the time o
 While it would have been nice to develop an experience that only encouraged people to speak kindly of themselves, I found that taking a neutral approach to be the most successful. By having people say both positive and negative thoughts, I'm not assuming anything about their ability to say either. Time elapsed is also very matter-of-fact, too; it's not inherently judgmental. 
 
 People are hard to change, and I didn't think I could create an experience that could alter someone's internal monologue, but I could certainly provide some data to reflect on. *Racing Thoughts* is merely meant as a place to begin thinking about our self-perception.
+
+I'm currently working on a visualization of the responses I collected at the ITP Winter Show in 2019. You can see a preliminary version of the data [here](https://emilydidthis.github.io/racingthoughts/).

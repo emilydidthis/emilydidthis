@@ -6,6 +6,7 @@ if (elementExists) {
         percentPosition: false,
         wrapAround: true,
         fullscreen: true,
+        setGallerySize: true,
     });
     
     var caption = document.querySelector('.carousel-caption');
