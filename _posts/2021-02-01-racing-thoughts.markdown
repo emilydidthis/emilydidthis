@@ -19,7 +19,9 @@ permalink: /racing-thoughts/
 <div class="carousel">
     <img class="photo" src="{{ site.baseurl }}/images/projects/racing-thoughts/cover-photo.jpg" alt="Racing Thoughts at the ITP Winter Show 2019">
     <img class="photo" src="{{ site.baseurl }}/images/projects/racing-thoughts/receipt-in-hand.jpg" alt="a Racing Thoughts receipt in hand">
-    <iframe alt="video documentation of Racing Thoughts" src="https://www.youtube.com/embed/JdhOtYtH8AU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="carousel-video" id="RT-video" alt="video documentation of Racing Thoughts">
+      <iframe src="https://www.youtube.com/embed/JdhOtYtH8AU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </div>
 <p class="carousel-caption">&nbsp;</p>
 
@@ -32,4 +34,4 @@ While it would have been nice to develop an experience that only encouraged peop
 
 People are hard to change, and I didn't think I could create an experience that could alter someone's internal monologue, but I could certainly provide some data to reflect on. *Racing Thoughts* is merely meant as a place to begin thinking about our self-perception.
 
-I'm currently working on a visualization of the responses I collected at the ITP Winter Show in 2019. You can see a preliminary version of the data [here](https://emilydidthis.github.io/racingthoughts/).
+I'm currently working on a visualization of the responses I collected at the ITP Winter Show in 2019. You can see a preliminary version of the project [here](https://emilydidthis.github.io/racingthoughts/).

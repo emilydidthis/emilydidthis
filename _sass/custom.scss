@@ -70,6 +70,7 @@ body {
 /* --- ABOUT--- */
 .pro-pic {
   width: 50%;
+  border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -326,8 +327,19 @@ input[type=submit] {
 }
 
 /* VIDEO IN CAROUSEL */
+
+#RT-video{
+  position: relative;
+  width: 100%;
+  height: 0;
+  // overflow: hidden;
+  padding-top: 66.66%;
+}
+
 .carousel iframe {
-  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 }
