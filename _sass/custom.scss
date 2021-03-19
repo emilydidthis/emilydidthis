@@ -186,10 +186,15 @@ input, textarea {
 
 #contact {
   font-family: "Inconsolata";
-  font-size: 14px;
+  font-size: 16px;
   p {
     margin: 0px;
   }
+}
+
+input[type=submit] {
+  color: white;
+  background-color: $theme-color;
 }
 
 /* --- POST HEADINGS--- */
@@ -576,7 +581,6 @@ h3 {
       width: 100%;
     }
   }
-  
 
   .page-background {
     margin: 0px;
