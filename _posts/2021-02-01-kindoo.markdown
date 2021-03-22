@@ -3,6 +3,7 @@ layout: post
 title:  "Kindoo"
 date:   2020-08-08 16:39:21 -0600
 categories: coming-soon
+permalink: /kindoo/
 tags: web-development web-tool psychology procrastination itp-thesis UI-UX
 logline: "Coming soon: An emotionally supportive web-app for procrastinators"
 ---
