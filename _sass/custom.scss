@@ -279,8 +279,13 @@ input[type=submit] {
 }
 
 .proj-desc {
-  font-size: 1.1em;
-  font-weight: bold;
+  border: 2px $theme-color;
+  border-style: dotted;
+  padding: 1em;
+  font-family: "Inconsolata" !important;
+  // background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%232E39B7FF' stroke-width='4' stroke-dasharray='2%2c 8' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+  //font-size: 1.1em;
+  //font-weight: bold;
 }
 
 /* --- HYPERLINKS--- */

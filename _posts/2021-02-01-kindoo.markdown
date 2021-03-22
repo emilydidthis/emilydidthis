@@ -3,28 +3,27 @@ layout: post
 title:  "Kindoo"
 date:   2020-08-08 16:39:21 -0600
 categories: coming-soon
-logline: "Coming soon: A web app that help users reframe negative feelings surrounding productivity"
+tags: web-development web-tool psychology procrastination itp-thesis UI-UX
+logline: "Coming soon: An emotionally supportive web-app for procrastinators"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Getting any task done, no matter how seemingly doable, can feel impossible to a procrastinator. I would know, because I am one, but I desperately want to change that. 
 
-`YEAR-MONTH-DAY-title.MARKUP`
+My on-going thesis project, *Kindoo*, is an attempt at seeing and solving procrastination in a new light. Through my research, I've learned that people put off tasks not because they need more willpower, but because they lack self-esteem. By changing the way we frame our thoughts around our tasks, and validating our fears surrounding productivity, I'm convinced that people will gain the confidence to tackle their to-do lists successfully. 
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<div class="carousel">
+    <img class="photo" src="{{ site.baseurl }}/images/projects/kindoo/multiple-choice.png" alt="Kindoo offers explanations to why you may be procrastinating">
+    <img class="photo" src="{{ site.baseurl }}/images/projects/kindoo/reframe.png" alt="Negative thought highlighting and reframing">
+    <img class="photo" src="{{ site.baseurl }}/images/projects/kindoo/chunking.png" alt="Breaking down tasks together">
+</div>
+<p class="carousel-caption">&nbsp;</p>
 
-Jekyll also offers powerful support for code snippets:
+Kindoo will have two main features:
+<ul>
+<li> an interactive text-editor that helps users catch and reframe negative thought patterns about their productivity abilities </li>
+<li> step-by-step guidance to break down large projects into manageable subtasks </li>
+</ul>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+From my experience, intimidating tasks feel either too big emotionally, too daunting logistically, or both. When I feel more positive about myself, I have the strength to itemize lofty and vague to-dos. The simpler and more doable my tasks feel, the more assured I am to accomplish them. Approaching procrastination from these angles has been successful for me, and I want to instill this two prong approach into my web application. 
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+I will be doing both the front-end and back-end development for the site. A working prototype should be expected in May 2021.
