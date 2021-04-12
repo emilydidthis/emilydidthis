@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 <div id='contact'>
-    <form method="post" action="https://formspree.io/ez560@nyu.edu">
+    <form method="post" action="https://formspree.io/f/xeqvqdze">
         <!-- required text input -->
         <p>NAME</p>
         <input id="name" type="text" name="name" required>
