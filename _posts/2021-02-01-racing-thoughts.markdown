@@ -12,7 +12,7 @@ permalink: /racing-thoughts/
 </div>
 
 <p class="proj-desc">
-  Racing Thoughts is an interactive experience intended to spark self-reflection. It calculates the speed at which people come up negative and positive thoughts and presents the data back to the user in the form of a receipt – a physical takeaway, if you will.
+  Racing Thoughts is an interactive experience intended to spark self-reflection. It calculates the speed at which people come up with negative and positive thoughts and presents the data back to the user in the form of a receipt – a physical takeaway, if you will.
 </p>
 
 
