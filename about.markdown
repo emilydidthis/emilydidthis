@@ -8,7 +8,7 @@ permalink: /about/
 
 Hi! I'm Emily, a multimedia storyteller and educator based in NYC. In my own work, I am interested in utilizating technology and computation to create experiences of self-reflection, because I believe by better understanding ourselves, we can increase our empathy for others.
 
-Currently, I am adjunct professor at NYU, teaching classes in both the Tisch School of the Arts and the Courant Institute for Mathematical Sciences. 
+Currently, I am an adjunct professor at NYU, teaching classes in both the Tisch School of the Arts and the Courant Institute for Mathematical Sciences. 
 
 Before that, I was a course instructor at Girls Who Code and a video producer at Scholastic, where I made educational videos for kids. 
 
