@@ -13,8 +13,8 @@ Getting any task done, no matter how seemingly doable, can feel impossible to a 
 My on-going thesis project, *Kindoo*, is an attempt at seeing and solving procrastination in a new light. Through my research, I've learned that people put off tasks not because they need more willpower, but because they lack self-esteem. By changing the way we frame our thoughts around our tasks, and validating our fears surrounding productivity, I'm convinced that people will gain the confidence to tackle their to-do lists successfully. 
 
 <div class="carousel">
-    <div class="carousel-video" id="RT-video" alt="video documentation of Racing Thoughts">
-      <iframe src="https://player.vimeo.com/video/551915867?h=83c4d42e2e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <div class="carousel-video" id="RT-video" alt="Kindoo | ITP Thesis Presentation">
+      <iframe src="https://player.vimeo.com/video/551915867?h=83c4d42e2e#t=18s" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     </div>
     <img class="photo" src="{{ site.baseurl }}/images/projects/kindoo/multiple-choice.png" alt="Kindoo offers explanations to why you may be procrastinating">
     <img class="photo" src="{{ site.baseurl }}/images/projects/kindoo/reframe.png" alt="Negative thought highlighting and reframing">
