@@ -30,4 +30,4 @@ Kindoo will have two main features:
 
 From my experience, intimidating tasks feel either too big emotionally, too daunting logistically, or both. When I feel more positive about myself, I have the strength to itemize lofty and vague to-dos. The simpler and more doable my tasks feel, the more assured I am to accomplish them. Approaching procrastination from these angles has been successful for me, and I want to instill this two prong approach into my web application. 
 
-I will be doing both the front-end and back-end development for the site. A working prototype should be expected in May 2021.
+I will be doing both the front-end and back-end development for the site. A working prototype should be expected at the beginning of 2023.
